@@ -1,0 +1,7 @@
+-command to generate locale_keys.g.dart
+flutter pub run easy_localization:generate -S assets/lang -f keys -O lib/gen -o locale_keys.g.dart
+
+-command to build_runner build --delete-conflicting-outputs
+flutter pub run build_runner build --delete-conflicting-outputs
+
+
