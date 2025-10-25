@@ -243,6 +243,7 @@ class MyTextApp extends StatelessWidget {
             height: height,
           ),
           maxLines: maxLines,
+        
           overflow: overflow,
         ),
       ],

@@ -3,10 +3,8 @@ import 'package:sqflite/sqflite.dart';
 class SqlHelper {
   static final SqlHelper _instance = SqlHelper._internal();
 
-  // ✅ Private constructor
   SqlHelper._internal();
 
-  // ✅ Factory constructor to return same instance
   factory SqlHelper() => _instance;
 
   Database? _db;
@@ -20,7 +18,7 @@ class SqlHelper {
   Future<Database> initDB() async {
     final db = await openDatabase(
       'flutter_task.db',
-      version: 3,
+      version: 4,
       onCreate: (db, version) async {
         await db.execute(
           'CREATE TABLE products (id INTEGER PRIMARY KEY AUTOINCREMENT, image TEXT, title TEXT, oldPrice TEXT, newPrice TEXT, sold TEXT)',
@@ -30,13 +28,26 @@ class SqlHelper {
         );
       },
       onUpgrade: (db, oldVersion, newVersion) async {
-        if (oldVersion < 3) {
+        if (oldVersion < 4) {
           await db.execute(
             'CREATE TABLE IF NOT EXISTS products (id INTEGER PRIMARY KEY AUTOINCREMENT, image TEXT, title TEXT, oldPrice TEXT, newPrice TEXT, sold TEXT)',
           );
           await db.execute(
             'CREATE TABLE IF NOT EXISTS categories_images (id INTEGER PRIMARY KEY AUTOINCREMENT, image TEXT, title TEXT)',
           );
+          await db.execute('''
+          CREATE TABLE packages (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            name TEXT NOT NULL,
+            price TEXT NOT NULL,
+            featuresCount INTEGER NOT NULL,
+            features TEXT NOT NULL,
+            showBadge INTEGER NOT NULL,
+            badgeText TEXT,
+            showMoreFeatures INTEGER NOT NULL,
+            selectedAt TEXT
+          )
+        ''');
         }
       },
       onOpen: (db) async {
