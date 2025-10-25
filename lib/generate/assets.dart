@@ -18,6 +18,14 @@ class Assets {
   /// assets/icons/offer.png
   static const String assetsIconsOffer = "assets/icons/offer.png";
 
+  /// Assets for assetsIconsRectagle
+  /// assets/icons/rectagle.png
+  static const String assetsIcons7 = "assets/icons/7.png";
+  static const String assetsIcons18 = "assets/icons/18.png";
+  static const String assetsIcons24 = "assets/icons/24.png";
+
+  static const String assetsIconsRectagle = "assets/icons/rectagle.png";
+
   /// Assets for assetsIconsTm
   /// assets/icons/tm.png
   static const String assetsIconsTm = "assets/icons/tm.png";
