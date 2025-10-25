@@ -24,7 +24,7 @@ class FlutterTaskApp extends StatelessWidget {
           locale: context.locale,
           themeMode: ThemeMode.light,
           onGenerateRoute: router.generateRoute,
-          initialRoute: RoutePath.home,
+          initialRoute: RoutePath.layout,
           theme: Style.lightTheme,
           debugShowCheckedModeBanner: false,
           darkTheme: Style.darkTheme,

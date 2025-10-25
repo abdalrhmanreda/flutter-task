@@ -233,7 +233,7 @@ class MyTextApp extends StatelessWidget {
         Text(
           title,
           textAlign: align ?? TextAlign.start,
-          style: GoogleFonts.ibmPlexSansArabic(
+          style: GoogleFonts.tajawal(
             color: color,
             fontSize: size,
             letterSpacing: letterSpace,
