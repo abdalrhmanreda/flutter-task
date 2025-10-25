@@ -18,7 +18,7 @@ class Style {
       backgroundColor: AppColors.kWhiteColor,
       iconTheme: const IconThemeData(color: AppColors.kBlackColor),
       elevation: 0,
-      titleTextStyle: GoogleFonts.dmSans(
+      titleTextStyle: GoogleFonts.tajawal(
         color: AppColors.kBlackColor,
         fontSize: 16.sp,
       ),
@@ -78,7 +78,7 @@ class Style {
     appBarTheme: AppBarTheme(
       backgroundColor: (AppColors.kDarkPrimaryColor),
       elevation: 0,
-      titleTextStyle: GoogleFonts.dmSans(
+      titleTextStyle: GoogleFonts.tajawal(
         color: AppColors.kWhiteColor,
         fontSize: 18.sp,
       ),
@@ -89,12 +89,12 @@ class Style {
     ),
     iconTheme: const IconThemeData(color: AppColors.kWhiteColor),
     textTheme: TextTheme(
-      bodyLarge: GoogleFonts.dmSans(color: AppColors.kWhiteColor),
-      bodyMedium: GoogleFonts.dmSans(color: AppColors.kWhiteColor),
-      bodySmall: GoogleFonts.dmSans(color: AppColors.kWhiteColor),
-      titleLarge: GoogleFonts.dmSans(color: AppColors.kWhiteColor),
-      titleMedium: GoogleFonts.dmSans(color: AppColors.kWhiteColor),
-      titleSmall: GoogleFonts.dmSans(color: AppColors.kWhiteColor),
+      bodyLarge: GoogleFonts.tajawal(color: AppColors.kWhiteColor),
+      bodyMedium: GoogleFonts.tajawal(color: AppColors.kWhiteColor),
+      bodySmall: GoogleFonts.tajawal(color: AppColors.kWhiteColor),
+      titleLarge: GoogleFonts.tajawal(color: AppColors.kWhiteColor),
+      titleMedium: GoogleFonts.tajawal(color: AppColors.kWhiteColor),
+      titleSmall: GoogleFonts.tajawal(color: AppColors.kWhiteColor),
     ),
     floatingActionButtonTheme: const FloatingActionButtonThemeData(
       backgroundColor: AppColors.kPrimaryColor,
@@ -118,17 +118,17 @@ class Style {
     ),
     datePickerTheme: DatePickerThemeData(
       backgroundColor: AppColors.kDarkPrimaryColor,
-      headerHeadlineStyle: GoogleFonts.aBeeZee(color: Colors.white),
-      headerHelpStyle: GoogleFonts.aBeeZee(color: Colors.white),
-      dayStyle: GoogleFonts.aBeeZee(color: Colors.white),
-      rangePickerHeaderHeadlineStyle: GoogleFonts.aBeeZee(color: Colors.white),
-      rangePickerHeaderHelpStyle: GoogleFonts.aBeeZee(color: Colors.white),
-      yearStyle: GoogleFonts.aBeeZee(color: Colors.white),
-      weekdayStyle: GoogleFonts.aBeeZee(color: Colors.white),
+      headerHeadlineStyle: GoogleFonts.tajawal(color: Colors.white),
+      headerHelpStyle: GoogleFonts.tajawal(color: Colors.white),
+      dayStyle: GoogleFonts.tajawal(color: Colors.white),
+      rangePickerHeaderHeadlineStyle: GoogleFonts.tajawal(color: Colors.white),
+      rangePickerHeaderHelpStyle: GoogleFonts.tajawal(color: Colors.white),
+      yearStyle: GoogleFonts.tajawal(color: Colors.white),
+      weekdayStyle: GoogleFonts.tajawal(color: Colors.white),
       surfaceTintColor: Colors.white,
       inputDecorationTheme: InputDecorationTheme(
-        labelStyle: GoogleFonts.aBeeZee(color: Colors.white),
-        hintStyle: GoogleFonts.aBeeZee(color: Colors.white),
+        labelStyle: GoogleFonts.tajawal(color: Colors.white),
+        hintStyle: GoogleFonts.tajawal(color: Colors.white),
       ),
     ),
     timePickerTheme: const TimePickerThemeData(

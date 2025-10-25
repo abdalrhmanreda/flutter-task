@@ -4,9 +4,8 @@ class AppColors {
   static const Color kDarkPrimaryColor = Color(0xff2c3e50);
   static const Color kScaffoldLightColor = Color(0xfff2fbfb);
   static const Color klightGreen = Color(0xff00a072);
-  static const Color kPrimaryColor = Color(0xff051F38);
   static const Color kMoreBlue = Color(0xff051F38);
-  //static const Color kPrimaryColor = Color(0xff0094ef);
+  static const Color kPrimaryColor = Color(0xff0094ef);
   static const Color kSecondaryColor = Color(0xff0090ed);
   static const Color kBackgroundChatImage = Color(0xff1E69BA);
   static const Color kOnBoardingColor2 = Color(0xff7b85fd);
@@ -32,7 +31,7 @@ class AppColors {
   static const Color kUnFocusBorderColor = Color(0xffEDEDED);
   static const Color kHintTextColor = Color(0xffC2C2C2);
   static const Color kDarkBlueColor = Color(0xff242424);
-  static const Color kSkipButtonColor = Color(0xff029ff1);
+  static const Color kSkipButtonColor = Color.fromARGB(255, 6, 165, 250);
   static const Color kSkipButtonColor2 = Color(0xff8890fc);
   static const Color kBackgroundHintTextColor = Color(0xfffdfdff);
   static const Color kGrayColor = Color(0xffbebebe);
